@@ -1,9 +1,8 @@
-* EXCEPTION:
-* ERROR: Exception while requiring app/main.rb.
-* ERROR: Exception while requiring classes/game_session.rb.
-classes/game_session.rb does not exist.
+* EXCEPTION: 'initialize': wrong number of arguments (1 for 0)
 ** Backtrace:
-*** app/main.rb:1
-** Backtrace:
-*** app/main.rb:1
-** Backtrace:
+*** app/modules/state/game_objects/game_object.rb:5:in initialize
+*** app/game_session.rb:9:in add_PC
+*** app/game_session.rb:5:in initialize
+*** app/main.rb:19:in create_game_session
+*** app/main.rb:15:in init
+*** app/main.rb:6:in tick
