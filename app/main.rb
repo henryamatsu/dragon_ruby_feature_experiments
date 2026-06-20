@@ -16,7 +16,7 @@ module Main
   end
 
   def create_game_session state
-    state.game_session ||= GameSession.new
+    state.game_session ||= GameSession.new(state)
     puts("Game session initialized!")
   end
 end
